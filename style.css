@@ -1,10 +1,10 @@
 :root {
-    --cor-detalhe-escura: #f30
+    --cor-detalhe-escura: #f30;
     --cor-detalhe-media: #990000;
-    --cor-detalhe-clara: hsl(192, 83%, 82%);
+    --cor-detalhe-clara: hsl(347, 100%, 42%);
 
-    --cor-neutra-clara: #EEEEEE;
-    --cor-neutra-media: #888888;
+    --cor-neutra-clara: #ffffff;
+    --cor-neutra-media: #313030;
     --cor-neutra-escura: #222222;
 
     --cor-links: #FF3300;
@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -35,14 +36,10 @@ nav ul li {
     padding-left: 0.5rem;
 }
 
-.titluonav {
+.titulonav {
     font-size: 1.5rem;
-}
-
-.titluonav {
-    font-size: 1.5rem;
-    color: var(--cor-neutra-clara)
-    text-decoration none;
+    color: var(--cor-neutra-clara);
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -50,7 +47,7 @@ nav ul li {
     text-decoration: none;
     color: var(--cor-neutra-media);
     border-bottom: 3px solid var(--cor-detalhe-clara);
-    padding-bottom: 0.4rem ;
+    padding-bottom: 0.4rem;
     transition: 0.5s;
 }
 
@@ -59,3 +56,38 @@ nav ul li {
     color: var(--color-links);
     border-bottom: 3px solid var(--cor-links);
 } 
+
+
+.area-titulo {
+    background-color: var(--cor-neutra-escura);
+    padding: 1rem;
+}
+
+.titulo-1 {
+    color: var(--cor-neutra-clara);
+}
+
+.titulo-2 {
+    color: var(--cor-detalhe-media);
+}
+
+.conteudo{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--cor-detalhe-media);
+    margin: 1rem;
+}
+
+.rodape {
+    background-color: var(--cor-detalhe-media);
+    color: var(--cor-neutra-clara);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-rodape {
+    font-size: 1.125rem;
+    padding: 1rem;
+}
